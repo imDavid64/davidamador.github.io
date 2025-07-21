@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: black;
+  align-items: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  height: 90px;
+  display: flex;
+}
+
+.logo-header {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
